@@ -5,8 +5,8 @@
 
 header{width: 700px;
     height: 40px;
-        background-color:aqua;
-        color: rgb(255, 8, 8);
+        background-color:black;
+        color:yellow    ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     border: 2px solid black;
@@ -20,19 +20,41 @@ header{width: 700px;
     height: 300;
     width: 700px;
     background-color:aquamarine;
-    color:blue;
+    color:black;
     border: 2px solid black;
 }
-h3{display: inline-block;
-    background-color: darkorchid;
-    color: white;
+h4{display: inline;
+    background-color:black;
+    color: yellow;
+  
 }
 
+thead{
+    background-color: rgb(111, 250, 98);
+    font-size: larger;
+}
+tbody{
+    background-color: aqua;
+} 
 
+h1{
+    display: inline;
+    background-color:black;
+    color: green;
+}
+h4{
+    background-color: black;
+    color: yellow;
 
-
-
-
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+    
 
