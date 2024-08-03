@@ -12,10 +12,10 @@
      <header><h2>Miracle of Nature.</h2>
     </header>
     <div class="para">
-  <P>
+
     The sunset A sunset... The first impression of it is a beautiful and mystifying creation of the nature that leaves a great image in people?s minds; however, sometimes those images can associate with an opposite feeling like tiredness and anger.
 
-It was in the afternoon, around four; I was sitting on the beach, looking at the sea and the sun, and waiting for my friend. I enjoyed looking into the horizon of the sea where the sky and the water were merging together, how the waves were covering each other, and the sun that was reflecting its rays from the water. The sun was high up in the sky spreading its rays everywhere trying to touch every object around. The color of the sun was creamy yellow, and it was easy to distinguish it from the light blue color of the sky. There were few clouds, but they were far away, so the sun was taking all the space above the horizon. As the sunset was starting, the sun was going down slowly changing its color from creamy yellow to shades of glowing orange. The rays were not reaching the land any more. Some parts of the landscape were getting dark as though the sun was going down. The difference in its position in a short time period was noticeable. In few seconds the sun was already all red and its red color spread all over the sky. The reddish clouds looked like cotton candy in the sky. Even the sea was changing too. It began to get more dynamic because there was more waves and they were higher. The color of the sea was changing from light to dark blue, almost black. From the waves? splashes the sea looked like a beer in a glass, since the foam was covering it. Sometimes the foam was covering it almost everywhere, so the sea looked white as if it was the snow but not the water. When the sun reached the line of the horizon, it was a rich red color like blood. It looked like that the sun was sinking into the water like a piece of live ember and the heat made the air around the sun shimmer. The sky was almost dark and the first stars were seen.</P>
+It was in the afternoon, around four; I was sitting on the beach, looking at the sea and the sun, and waiting for my friend. I enjoyed looking into the horizon of the sea where the sky and the water were merging together, how the waves were covering each other, and the sun that was reflecting its rays from the water. The sun was high up in the sky spreading its rays everywhere trying to touch every object around. The color of the sun was creamy yellow, and it was easy to distinguish it from the light blue color of the sky. There were few clouds, but they were far away, so the sun was taking all the space above the horizon. As the sunset was starting, the sun was going down slowly changing its color from creamy yellow to shades of glowing orange. The rays were not reaching the land any more. Some parts of the landscape were getting dark as though the sun was going down. The difference in its position in a short time period was noticeable. In few seconds the sun was already all red and its red color spread all over the sky. The reddish clouds looked like cotton candy in the sky. Even the sea was changing too. It began to get more dynamic because there was more waves and they were higher. The color of the sea was changing from light to dark blue, almost black. From the waves? splashes the sea looked like a beer in a glass, since the foam was covering it. Sometimes the foam was covering it almost everywhere, so the sea looked white as if it was the snow but not the water. When the sun reached the line of the horizon, it was a rich red color like blood. It looked like that the sun was sinking into the water like a piece of live ember and the heat made the air around the sun shimmer. The sky was almost dark and the first stars were seen.
 
 <h4>Let me show u some beautiful sunset pics.</h4><br><br>
 <!--how to insert images ..relative and absolute images -->
@@ -104,8 +104,21 @@ It was in the afternoon, around four; I was sitting on the beach, looking at the
   <title>chap-3</title>
 </head>
 <body>
-  <div id="ul-list">
-    <ul>
+  <div id="lists">
+    <H3>Lists in HTML</h3>
+    <ol type="I">
+      <li> HTML</li>
+      <li> CSS</li>
+      <li> JS</li>
+
+    </ol>
+  <ul type="square">
+      <LI> Mudasir</LI>
+      <li>Imran</li>
+      <li>Mosa</li>
+    </UL></div>
+ 
+    <!--<ul>
       <li type="disc">Home</li>
       <li type="circle">About</li>
       <li type="square">Contact</li>
@@ -119,10 +132,56 @@ It was in the afternoon, around four; I was sitting on the beach, looking at the
       <li style="list-style-type: square;">About</li>
       <li style="list-style-type: disc;">contact</li>
       <li style="list-style-type: armenian;">  help</li>
-    </ol>
+    </ol>-->
    
   </div>
   
+  <!--Now lets create a login page for  some frustated students like me-->
+<div id="container">
+  <P > Register Yourself for Admission</P><br>
+  <form accept="form.jhdg">
+    
+    <div id="name"><label>Name</label>
+    <input type="text" placeholder="enter your name"></div><br>
+   <div id="Parentage"> <label>Parentage</label>
+    <input type="text" placeholder="enter your fathers name"></div><br>
+    <div id="email"><label>E-mail</label>
+    <input type="email" placeholder="enter your e-mail"></div><br>
+   
+    <div id="subject">
+    <label>Choose your main 3 subjects.</label></div>
+    <div id="checkbox-one"><label for="Computer science">
+   <input type="checkbox" value="Computer science" name="subject" id="110">Computer science.</label></div>
+    <div id="checkbox-two"><label for="English">
+    <input type="checkbox" value="English" name="subject" id="111">English.
+  </label></div>
+  <div id="checkbox-three">
+  <label for="Math">
+    <input type="checkbox" value="Math" name="subject" id="112">math.
+  </label></div>
+ <div id="checkbox-4"><label for="Science">
+    <input type="checkbox" value="Science" name="subject" id="113">science.
+  </label></div> <br>
+  <div id="checkbox-5"><label >choose your class</label></div>
+  <div id="class-1"><label for="101">
+    <input type="radio" value="11" name="class" id="101">11class
+    <div id="class-2"><label for="102">
+ <input type="radio" value="12" name="class" id="102" >12class
+  </label></div><br>
+
+    <div id="chooose"><select>
+      <option value="city">Select your city</option>
+      <option value="Srinagar">Srinagar</option>
+      <option value="Kupwara">Kupwara</option>
+      <option value="Pulwama">Pulwama</option>
+
+    </select></div><br>
+   <div id="click"><button value="register">Register</button>
+</div>
+
+
+  </form> 
+</div>
 </body>
 </html>
 
